@@ -1,0 +1,50 @@
+:root
+{
+    --primary: #cdd6a9;
+    --secondary: #919876;
+    --tertiary: #636651;
+}
+
+
+body 
+{
+    font-family: Pompiere;
+    background-color: var(--secondary);
+    color: var(--primary);
+    display:grid;
+    place-items: center;
+}
+
+.menu
+{
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
+
+.navbar-dark .navbar-nav .nav-link 
+{
+    color: var(--primary);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover 
+{
+    color: var(--tertiary);
+}
+
+.ArtSecImg
+{
+    width: 10%;
+}
+
+/*anchor styling*/
+a, a:link, a:visited, a:active
+{
+    color: var(--primary);
+}
+
+a:hover
+{
+  color:var(--tertiary);
+  text-decoration: none;
+}
