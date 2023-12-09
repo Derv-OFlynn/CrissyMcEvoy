@@ -1,8 +1,8 @@
 :root
 {
-    --primary: #cdd6a9;
-    --secondary: #919876;
-    --tertiary: #636651;
+    --primary: #e7eccb;
+    --secondary: #777b63;
+    --tertiary: #4d4f44;
 }
 
 
@@ -35,6 +35,7 @@ body
 .ArtSecImg
 {
     width: 10%;
+    justify-items: right;
 }
 
 /*anchor styling*/
@@ -47,4 +48,25 @@ a:hover
 {
   color:var(--tertiary);
   text-decoration: none;
+}
+
+.BContainer
+{
+    background-image: url("Images/paper-bg.jpeg");
+    color: var(--tertiary);
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.BContainer a, .BContainer a:link, .BContainer a:visited, .BContainer a:active
+{
+    color: var(--secondary);
+}
+
+.BContainer a:hover
+{
+  color:var(--tertiary);
+  text-decoration: none;
+  overflow-x: scroll;
 }
