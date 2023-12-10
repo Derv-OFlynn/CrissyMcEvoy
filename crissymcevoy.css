@@ -8,18 +8,24 @@
 
 body 
 {
+    
     font-family: Pompiere;
     background-color: var(--secondary);
     color: var(--primary);
-    display:grid;
-    place-items: center;
+
 }
 
 .menu
 {
+    position:fixed;
+    text-align: center;
+    background-color: var(--secondary);
     font-weight: bold;
     display: grid;
     place-items: center;
+    width: 100%;
+    margin-bottom: 10%;
+    z-index: 101;
 }
 
 .navbar-dark .navbar-nav .nav-link 
@@ -34,8 +40,8 @@ body
 
 .ArtSecImg
 {
-    width: 10%;
-    justify-items: right;
+    width: 70vh;
+    z-index: 100;
 }
 
 /*anchor styling*/
@@ -52,11 +58,10 @@ a:hover
 
 .BContainer
 {
-    background-image: url("Images/paper-bg.jpeg");
-    color: var(--tertiary);
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
+    background-image: url(Images/Website_Paper_BG.png), url(Images/paper-bg.jpeg);
+    background-position:left top, right bottom;
+    background-repeat: no-repeat, repeat;
+    background-color: var(--secondary);
 }
 
 .BContainer a, .BContainer a:link, .BContainer a:visited, .BContainer a:active
@@ -69,4 +74,37 @@ a:hover
   color:var(--tertiary);
   text-decoration: none;
   overflow-x: scroll;
+}
+
+.CContainer
+{
+    margin-top: 5%;
+    color: var(--tertiary);
+    display: grid;
+    place-items: center;
+}
+
+.wrap {
+    width:500px;
+    height: 500px;
+    border:1px solid red;
+    position:relative;
+}
+.one {  
+    width:100%;height:100%;
+    background-image: url(http://dummyimage.com/250x250/dfdbb9/dfdbb9.png);
+    background-repeat:no-repeat;
+    background-position:left top;
+}
+.two:after {    
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: -1;   
+    background-image:  url(http://dummyimage.com/250x250/b9d9df/b9d9df.png);
+    background-repeat:no-repeat;        
+    background-position:right bottom;
 }
