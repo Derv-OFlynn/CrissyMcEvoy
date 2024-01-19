@@ -38,10 +38,26 @@ body
     color: var(--tertiary);
 }
 
+.navbar-toggler:hover
+{
+    background-color: var(--tertiary);
+}
+
+.navbar-toggler.navbar-toggler:click
+{
+    background-color: var(--primary);
+}
+
 .ArtSecImg
 {
     width: 70vh;
+    transition-duration: 0.4s;
     z-index: 100;
+}
+
+.ArtSecImg:hover
+{
+    width: 75vh;
 }
 
 /*anchor styling*/
@@ -91,22 +107,4 @@ a:hover
     height: 500px;
     border:1px solid red;
     position:relative;
-}
-.one {  
-    width:100%;height:100%;
-    background-image: url(http://dummyimage.com/250x250/dfdbb9/dfdbb9.png);
-    background-repeat:no-repeat;
-    background-position:left top;
-}
-.two:after {    
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top:0;
-    left:0;
-    z-index: -1;   
-    background-image:  url(http://dummyimage.com/250x250/b9d9df/b9d9df.png);
-    background-repeat:no-repeat;        
-    background-position:right bottom;
 }
