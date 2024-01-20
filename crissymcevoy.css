@@ -12,6 +12,7 @@ body
     font-family: Pompiere;
     background-color: var(--secondary);
     color: var(--primary);
+    background-image: url(Images/paper-bg.jpeg);
 
 }
 
@@ -23,11 +24,15 @@ body
     font-weight: bold;
     display: grid;
     place-items: center;
-    width: 100%;
     margin-bottom: 10%;
-    z-index: 101;
+    overflow: hidden;
+    width: 100%;
 }
 
+.current
+{
+    text-decoration: underline;
+}
 .navbar-dark .navbar-nav .nav-link 
 {
     color: var(--primary);
@@ -38,21 +43,15 @@ body
     color: var(--tertiary);
 }
 
-.navbar-toggler:hover
+.navbar-toggler:hover, .navbar-toggler.navbar-toggler:focus
 {
     background-color: var(--tertiary);
-}
-
-.navbar-toggler.navbar-toggler:click
-{
-    background-color: var(--primary);
 }
 
 .ArtSecImg
 {
     width: 70vh;
     transition-duration: 0.4s;
-    z-index: 100;
 }
 
 .ArtSecImg:hover
@@ -72,39 +71,73 @@ a:hover
   text-decoration: none;
 }
 
-.BContainer {
-    margin-top: 15%;
-    background-image: url(Images/Website_Paper_BG.png), url(Images/paper-bg.jpeg);
-    background-position: top, top;
-    background-repeat: no-repeat, repeat-y; /* Repeat the second image vertically */
-    background-color: var(--secondary);
-    /* Additional properties to size the backgrounds */
-    background-size: auto, auto; /* Change as necessary */
-}
 
-.BContainer a, .BContainer a:link, .BContainer a:visited, .BContainer a:active
-{
-    color: var(--secondary);
-}
-
-.BContainer a:hover
-{
-  color:var(--tertiary);
-  text-decoration: none;
-  overflow-x: scroll;
-}
 
 .CContainer
 {
+    padding: 2%;
     margin-top: 5%;
     color: var(--tertiary);
     display: grid;
     place-items: center;
 }
 
-.wrap {
-    width:500px;
-    height: 500px;
-    border:1px solid red;
-    position:relative;
+
+/*MEDIA QUERIES!!!!*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+    .CContainer
+    {
+        margin-top: 15%;
+    }
+    
+    .ArtSecImg
+    {
+        width: 50vh;
+    }
+
+    .ArtSecImg:hover
+    {
+        width: 55vh;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+{
+    .CContainer
+    {
+        margin-top: 15%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    .CContainer
+    {
+        margin-top: 10%;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    .CContainer
+    {
+        margin-top: 5%;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+    .CContainer
+    {
+        margin-top: 5%;
+    }
 }
