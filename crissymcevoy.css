@@ -136,6 +136,11 @@ footer
     color: var(--tertiary);
 }
 
+.scannan
+{
+    width: 90vw;
+}
+
 
 /*MEDIA QUERIES!!!!*/
 /* Extra small devices (phones, 600px and down) */
@@ -214,6 +219,11 @@ footer
     {
         flex-direction: row;
     }
+
+    .scannan
+    {
+        width: 60vw;
+    }
 }
 
 
@@ -235,6 +245,11 @@ footer
         width: 45vw;
     }
 
+    .scannan
+    {
+        width: 40vw;
+    }
+
     .Signature
     {
         width: 10vh;
@@ -248,6 +263,11 @@ footer
     .CContainer
     {
         margin-top: 5%;
+    }
+
+    .scannan
+    {
+        width: 40vw;
     }
 
     .Signature
