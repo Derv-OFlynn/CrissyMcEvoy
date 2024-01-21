@@ -33,6 +33,7 @@ body
 {
     text-decoration: underline;
 }
+
 .navbar-dark .navbar-nav .nav-link 
 {
     color: var(--primary);
@@ -107,6 +108,35 @@ footer
 }
 
 
+.image-gallery 
+{
+    /* Mobile first */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+}
+  
+.image-gallery .column 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.image-item img 
+{
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gal-title
+{
+    color: var(--tertiary);
+}
+
+
 /*MEDIA QUERIES!!!!*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px)
@@ -178,6 +208,11 @@ footer
     .Signature
     {
         width: 10vh;
+    }
+
+    .image-gallery 
+    {
+        flex-direction: row;
     }
 }
 
