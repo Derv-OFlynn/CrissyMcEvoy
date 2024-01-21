@@ -18,7 +18,7 @@ body
 
 .menu
 {
-    position:fixed;
+    position:absolute;
     text-align: center;
     background-color: var(--secondary);
     font-weight: bold;
