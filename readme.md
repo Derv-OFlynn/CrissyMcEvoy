@@ -14,3 +14,5 @@ Font:
 
 Background: 
 - A pale yellow paper with dark green gridlines
+
+# Sample Images:

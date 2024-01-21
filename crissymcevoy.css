@@ -50,13 +50,13 @@ body
 
 .ArtSecImg
 {
-    width: 70vh;
+    width: 40vw;
     transition-duration: 0.4s;
 }
 
 .ArtSecImg:hover
 {
-    width: 75vh;
+    width: 45vw;
 }
 
 /*anchor styling*/
@@ -67,8 +67,8 @@ a, a:link, a:visited, a:active
 
 a:hover
 {
-  color:var(--tertiary);
-  text-decoration: none;
+    color:var(--tertiary);
+    text-decoration: none;
 }
 
 
@@ -89,6 +89,7 @@ footer
     background-color: var(--secondary);
     text-align: center;
     vertical-align: bottom;
+    position: fixed;
 	right: 0;
     bottom: 0;
 	left: 0;
@@ -98,6 +99,11 @@ footer
 {
     text-align: center;
     color: var(--primary);
+}
+
+.Signature
+{
+    width: 10vw;
 }
 
 
@@ -112,12 +118,17 @@ footer
     
     .ArtSecImg
     {
-        width: 50vh;
+        width: 100vw;
     }
 
     .ArtSecImg:hover
     {
-        width: 55vh;
+        width: 105vw;
+    }
+
+    .Signature
+    {
+        width: 10vh;
     }
 }
 
@@ -129,6 +140,21 @@ footer
     {
         margin-top: 15%;
     }
+
+    .ArtSecImg
+    {
+        width: 95vw;
+    }
+
+    .ArtSecImg:hover
+    {
+        width: 100vw;
+    }
+
+    .Signature
+    {
+        width: 10vh;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -137,6 +163,21 @@ footer
     .CContainer
     {
         margin-top: 10%;
+    }
+
+    .ArtSecImg
+    {
+        width: 80vw;
+    }
+
+    .ArtSecImg:hover
+    {
+        width: 85vw;
+    }
+
+    .Signature
+    {
+        width: 10vh;
     }
 }
 
@@ -148,6 +189,21 @@ footer
     {
         margin-top: 5%;
     }
+
+    .ArtSecImg
+    {
+        width: 40vw;
+    }
+
+    .ArtSecImg:hover
+    {
+        width: 45vw;
+    }
+
+    .Signature
+    {
+        width: 10vh;
+    }
 }
 
 
@@ -157,5 +213,10 @@ footer
     .CContainer
     {
         margin-top: 5%;
+    }
+
+    .Signature
+    {
+        width: 10vh;
     }
 }
