@@ -82,6 +82,24 @@ a:hover
     place-items: center;
 }
 
+footer
+{
+    width:100%;
+    color: var(--primary);
+    background-color: var(--secondary);
+    text-align: center;
+    vertical-align: bottom;
+	right: 0;
+    bottom: 0;
+	left: 0;
+}
+
+.FooterText
+{
+    text-align: center;
+    color: var(--primary);
+}
+
 
 /*MEDIA QUERIES!!!!*/
 /* Extra small devices (phones, 600px and down) */
