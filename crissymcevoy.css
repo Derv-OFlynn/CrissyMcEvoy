@@ -141,6 +141,41 @@ footer
     width: 90vw;
 }
 
+.DropButton
+{
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+
+.DropButton:hover, .DropButton:focus, .DropButton:active
+{
+    color: var(--primary);
+    background-color: var(--tertiary);
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active,.show > .btn-secondary.dropdown-toggle, .btn-secondary:focus 
+{
+    color: var(--primary);
+    background-color: var(--tertiary);
+}
+
+.dropdown-menu
+{
+	background-color: var(--secondary);
+    color: var(--primary);
+	border: 1px solid rgba(0,0,0,0);
+	overflow-y: visible;
+}
+
+.dropdown-item
+{
+    color: var(--primary);
+}
+.dropdown-item:hover 
+{
+	color: var(--primary);
+	background-color: var(--tertiary);
+}
 
 /*MEDIA QUERIES!!!!*/
 /* Extra small devices (phones, 600px and down) */
