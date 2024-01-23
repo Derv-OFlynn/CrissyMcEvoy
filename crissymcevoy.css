@@ -72,8 +72,6 @@ a:hover
     text-decoration: none;
 }
 
-
-
 .CContainer
 {
     padding: 2%;
@@ -171,10 +169,18 @@ footer
 {
     color: var(--primary);
 }
+
 .dropdown-item:hover 
 {
 	color: var(--primary);
 	background-color: var(--tertiary);
+}
+
+.ContactImg
+{
+    width: 80vw;
+    bottom:0;
+    position: fixed;
 }
 
 /*MEDIA QUERIES!!!!*/
@@ -200,6 +206,11 @@ footer
     {
         width: 10vh;
     }
+
+    .ContactImg
+    {
+        padding-bottom: 10%;
+    }
 }
 
 
@@ -224,6 +235,11 @@ footer
     .Signature
     {
         width: 10vh;
+    }
+
+    .ContactImg
+    {
+        padding-bottom: 7%;
     }
 }
 
@@ -259,6 +275,11 @@ footer
     {
         width: 60vw;
     }
+
+    .ContactImg
+    {
+        padding-bottom: 5%;
+    }
 }
 
 
@@ -288,6 +309,11 @@ footer
     .Signature
     {
         width: 10vh;
+    }
+
+    .ContactImg
+    {
+        padding-bottom: 0%;
     }
 }
 
