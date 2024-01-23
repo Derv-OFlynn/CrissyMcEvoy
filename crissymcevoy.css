@@ -180,6 +180,8 @@ footer
 {
     width: 80vw;
     bottom:0;
+    margin: 0;
+    padding: 0;
     position: fixed;
 }
 
@@ -205,11 +207,6 @@ footer
     .Signature
     {
         width: 10vh;
-    }
-
-    .ContactImg
-    {
-        padding-bottom: 10%;
     }
 }
 
@@ -237,10 +234,6 @@ footer
         width: 10vh;
     }
 
-    .ContactImg
-    {
-        padding-bottom: 7%;
-    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -276,10 +269,6 @@ footer
         width: 60vw;
     }
 
-    .ContactImg
-    {
-        padding-bottom: 5%;
-    }
 }
 
 
@@ -311,10 +300,6 @@ footer
         width: 10vh;
     }
 
-    .ContactImg
-    {
-        padding-bottom: 0%;
-    }
 }
 
 
