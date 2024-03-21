@@ -13,23 +13,21 @@ body
     background-color: var(--secondary);
     color: var(--primary);
     background-image: url(Images/paper-bg.jpeg);
-
 }
 
 .menu
 {
-
     position:absolute;
     text-align: center;
     background-color: var(--secondary);
     font-weight: bold;
     display: grid;
     place-items: center;
-    margin-bottom: 10%;
-    overflow: hidden;
-    width: 100%;
+    overflow: visible;
+    min-width: 100%;
+    max-width: 100%;
+    margin:0;
     z-index: 100;
-    
 }
 
 .current
@@ -211,12 +209,12 @@ footer
     
     .ArtSecImg
     {
-        width: 100vw;
+        width: 90vw;
     }
 
     a .ArtSecImg:hover
     {
-        width: 105vw;
+        width: 95vw;
     }
 
     .Signature
@@ -236,12 +234,12 @@ footer
 
     .ArtSecImg
     {
-        width: 95vw;
+        width: 90vw;
     }
 
     a .ArtSecImg:hover
     {
-        width: 100vw;
+        width: 95vw;
     }
 
     .Signature
