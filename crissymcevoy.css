@@ -142,9 +142,13 @@ footer
     color: var(--tertiary);
 }
 
+/*Youtube aspect ratio is 16:9. I hope this maths is correct :( */
 .scannan
 {
     width: 90vw;
+    height: 50vh;
+    border: 5px solid var(--tertiary);
+    border-radius: 5px;
 }
 
 .DropButton
