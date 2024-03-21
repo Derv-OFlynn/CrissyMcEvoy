@@ -18,6 +18,7 @@ body
 
 .menu
 {
+
     position:absolute;
     text-align: center;
     background-color: var(--secondary);
@@ -27,6 +28,8 @@ body
     margin-bottom: 10%;
     overflow: hidden;
     width: 100%;
+    z-index: 100;
+    
 }
 
 .current
